@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Admin-Panel-Shoes.props" />
+</Project>
