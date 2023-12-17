@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "D:\\ASP.NET\\Admin-Panel-Shoes\\Admin-Panel-Shoes\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Admin-Panel-Shoes.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Admin-Panel-Shoes.bundle.scp.css"
-    },
-    {
       "Id": "D:\\ASP.NET\\Admin-Panel-Shoes\\Admin-Panel-Shoes\\wwwroot\\Shoes-Website\\.editorconfig",
       "PackagePath": "staticwebassets\\Shoes-Website\\.editorconfig"
     },

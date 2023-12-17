@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\ASP.NET\Admin-Panel-Shoes\Admin-Panel-Shoes
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Customers/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,6 +34,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Main/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Products/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Services/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Shared/_ValidationScriptsPartial.cshtml]
@@ -39,7 +55,3 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Shared/_Layout.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-1gyjxitz70

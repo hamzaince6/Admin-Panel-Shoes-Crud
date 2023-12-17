@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DVFSWylOO31bZPb/MUXKrs9K99R36A9c1jkdX6fSjsg=",
+  "Hash": "dleOCxZ9f96Su/vg0lVKvDTGfoK0oAasO6A7oc9of+E=",
   "Source": "Admin-Panel-Shoes",
   "BasePath": "_content/Admin-Panel-Shoes",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "D:\\ASP.NET\\Admin-Panel-Shoes\\Admin-Panel-Shoes\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Admin-Panel-Shoes.styles.css",
-      "SourceId": "Admin-Panel-Shoes",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\ASP.NET\\Admin-Panel-Shoes\\Admin-Panel-Shoes\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/Admin-Panel-Shoes",
-      "RelativePath": "Admin-Panel-Shoes.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ASP.NET\\Admin-Panel-Shoes\\Admin-Panel-Shoes\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Admin-Panel-Shoes.styles.css"
-    },
-    {
-      "Identity": "D:\\ASP.NET\\Admin-Panel-Shoes\\Admin-Panel-Shoes\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Admin-Panel-Shoes.bundle.scp.css",
-      "SourceId": "Admin-Panel-Shoes",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\ASP.NET\\Admin-Panel-Shoes\\Admin-Panel-Shoes\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/Admin-Panel-Shoes",
-      "RelativePath": "Admin-Panel-Shoes.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "D:\\ASP.NET\\Admin-Panel-Shoes\\Admin-Panel-Shoes\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Admin-Panel-Shoes.bundle.scp.css"
-    },
     {
       "Identity": "D:\\ASP.NET\\Admin-Panel-Shoes\\Admin-Panel-Shoes\\wwwroot\\css\\site.css",
       "SourceId": "Admin-Panel-Shoes",

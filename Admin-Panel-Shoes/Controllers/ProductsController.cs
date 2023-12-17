@@ -2,7 +2,7 @@
 
 namespace Admin_Panel_Shoes.Controllers;
 
-public class MainController : Controller
+public class ProductsController : Controller
 {
     // GET
     public IActionResult Index()
