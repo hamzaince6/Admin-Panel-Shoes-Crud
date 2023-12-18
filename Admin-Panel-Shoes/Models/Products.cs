@@ -16,4 +16,6 @@ public class Products
     public int ProductsPrice { get; set; }
 
     public string ProductsStar { get; set; }
+
+    public string ProductsCategoryName { get; set; }
 }
