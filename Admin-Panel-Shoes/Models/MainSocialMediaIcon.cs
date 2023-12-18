@@ -6,8 +6,4 @@ public class MainSocialMediaIcon
 {
     [Key]
     public int MainSocialMediaIconId { get; set; }
-
-    public string MainSocialMediaIconName { get; set; }
-
-    public string MainSocialMediaIconLink { get; set; }
 }

@@ -8,8 +8,16 @@ namespace Admin_Panel_Shoes.Models
         {
         }
 
+        public Context()
+        {
+            
+        }
+
         public DbSet<AdminLogin> AdminLogins { get; set; }
         public DbSet<Main> Mains { get; set; }
         public DbSet<MainSocialMediaIcon> MainSocialMediaIcons { get; set; }
+        public DbSet<Products> ProductsEnumerable { get; set; }
+        public DbSet<About> Abouts { get; set; }
+        public DbSet<Customers> CustomersEnumerable { get; set; }
     }
 }

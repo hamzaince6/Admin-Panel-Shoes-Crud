@@ -1,12 +1,22 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Admin_Panel_Shoes.Models;
+using Microsoft.AspNetCore.Mvc;
 
-namespace Admin_Panel_Shoes.Controllers;
-
-public class MainController : Controller
+namespace Admin_Panel_Shoes.Controllers
 {
-    // GET
-    public IActionResult Index()
+    public class MainController : Controller
     {
-        return View();
+        private readonly Context _context;
+
+        public MainController(Context context)
+        {
+            _context = context;
+        }
+
+        // GET
+        public IActionResult Index()
+        {
+            var value = _context.Mains.ToList();
+            return View(value);
+        }
     }
 }
