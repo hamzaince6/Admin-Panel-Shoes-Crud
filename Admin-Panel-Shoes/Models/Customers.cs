@@ -2,7 +2,7 @@
 
 namespace Admin_Panel_Shoes.Models;
 
-public class Customers
+public class Customers 
 {
     [Key]
     public int CustomersId { get; set; }

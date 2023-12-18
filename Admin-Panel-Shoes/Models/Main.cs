@@ -2,7 +2,7 @@
 
 namespace Admin_Panel_Shoes.Models;
 
-public class Main
+public class Main 
 {
     [Key]
     public int MainId { get; set; }

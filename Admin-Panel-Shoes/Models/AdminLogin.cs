@@ -2,7 +2,7 @@
 
 namespace Admin_Panel_Shoes.Models;
 
-public class AdminLogin
+public class AdminLogin 
 {
     [Key]
     public int AdminLoginId { get; set; }

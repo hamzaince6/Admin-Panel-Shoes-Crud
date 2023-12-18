@@ -1,21 +1,38 @@
+using Admin_Panel_Shoes.Models;
 using Microsoft.AspNetCore.Authentication.Negotiate;
+using Microsoft.EntityFrameworkCore; 
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+
 builder.Services.AddControllersWithViews();
+
+
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ??
+                       throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
+
+builder.Services.AddDbContext<Context>(optionsBuilder =>
+    optionsBuilder.UseSqlServer(connectionString, x => x.MigrationsAssembly("Admin-Panel-Shoes"))); 
 
 builder.Services.AddAuthentication(NegotiateDefaults.AuthenticationScheme)
     .AddNegotiate();
 
 builder.Services.AddAuthorization(options =>
 {
-    // By default, all incoming requests will be authorized according to the default policy.
+    
     options.FallbackPolicy = options.DefaultPolicy;
 });
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
+
+// Entity Framework Core migration işlemi
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    var dbContext = services.GetRequiredService<Context>();
+    dbContext.Database.GetHashCode();
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -37,3 +54,5 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
+

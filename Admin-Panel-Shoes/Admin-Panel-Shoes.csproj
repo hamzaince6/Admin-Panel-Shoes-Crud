@@ -408,8 +408,4 @@
       <Content Include="wwwroot\Shoes-Website\.git\ORIG_HEAD" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Pages\" />
-    </ItemGroup>
-
 </Project>

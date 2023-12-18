@@ -1,18 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using DbContext = System.Data.Entity.DbContext;
 
-namespace Admin_Panel_Shoes.Models;
-
-public class Context : DbContext
+namespace Admin_Panel_Shoes.Models
 {
-    protected void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+    public class Context : DbContext
     {
-        optionsBuilder.UseSqlServer("server=(localdb)\\MSSQLLocalDB;database=Shoes-Db-Crud; integrated security=true");
-    }
-    
-    public System.Data.Entity.DbSet<AdminLogin> AdminLogins { get; set; }
-    public System.Data.Entity.DbSet<Main> Mains { get; set; }
-    public System.Data.Entity.DbSet<MainSocialMediaIcon> MainSocialMediaIcons { get; set; }
-    
-}
+        public Context(DbContextOptions<Context> options) : base(options)
+        {
+        }
 
+        public DbSet<AdminLogin> AdminLogins { get; set; }
+        public DbSet<Main> Mains { get; set; }
+        public DbSet<MainSocialMediaIcon> MainSocialMediaIcons { get; set; }
+    }
+}
