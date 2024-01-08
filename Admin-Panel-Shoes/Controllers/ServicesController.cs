@@ -11,11 +11,11 @@ public class ServicesController : Controller
     {
         _context = context;
     }
-    
-    
+
     // GET
     public IActionResult Index()
     {
-        return View();
+        var value = _context.Services.ToList();
+        return View(value);
     }
 }

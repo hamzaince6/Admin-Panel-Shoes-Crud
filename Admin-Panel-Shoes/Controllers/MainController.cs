@@ -18,5 +18,14 @@ namespace Admin_Panel_Shoes.Controllers
             var value = _context.Mains.ToList();
             return View(value);
         }
+
+        public PartialViewResult ProductMain()
+        {
+            var Productitem = _context.ProductsEnumerable.ToList();
+            return PartialView(Productitem);
+        }
+        
+        
+        
     }
 }

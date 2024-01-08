@@ -1,0 +1,47 @@
+﻿@model List<FormLogin>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+
+<!--Login Form-->
+<div class="login_form" style="background-image: url('https://shoes-frontend.netlify.app/loging_bg.f4ab3c73.png');">
+    <div class="left">
+        <img src="~/Shoes-Website/image/logshoes.png" />
+    </div>
+    <div class="right">
+        <h1>Welcome Back!</h1>
+        <form action="#" method="post">
+            <p>User Name</p>
+            <div class="user">
+                <i class="fa-solid fa-user"></i>
+                <input
+                    type="text"
+                    name="user"
+                    placeholder="User Name"
+                    class="username"
+                />
+            </div>
+            <p class="passworg_tag">Password</p>
+            <div class="password">
+                <i class="fa-solid fa-lock"></i>
+                <input type="text" name="password" placeholder="Password" />
+            </div>
+            <p class="forget">Forget Password ?</p>
+            <button type="submit">Login</button>
+            <div class="loging_icon">
+                <a href="#">
+                    <img src="~/Shoes-Website/image/google.png" />
+                </a>
+                <a href="#">
+                    <img src="~/Shoes-Website/image/facebook.png" />
+                </a>
+                <a href="#">
+                    <img src="~/Shoes-Website/image/twitter.png" />
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
