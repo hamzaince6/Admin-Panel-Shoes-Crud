@@ -424,4 +424,8 @@
       <AdditionalFiles Include="Views\FormLogin\ProductMain.cshtml" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="ViewCompanents\" />
+    </ItemGroup>
+
 </Project>
