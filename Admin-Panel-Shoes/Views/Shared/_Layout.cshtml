@@ -43,7 +43,10 @@
 
 
 @RenderBody()
-
+@await Component.InvokeAsync("CommensList")
+@await Component.InvokeAsync("Products")
+@await Component.InvokeAsync("About")
+@await Component.InvokeAsync("Customers")
 <!--Footer-->
 
 <footer>
