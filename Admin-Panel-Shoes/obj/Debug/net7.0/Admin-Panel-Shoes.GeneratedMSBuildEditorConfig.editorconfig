@@ -22,10 +22,6 @@ build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybUxvZ2luXEluZGV4LmNzaHRt
 build_metadata.AdditionalFiles.CssScope = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/FormLogin/ProductMain.cshtml]
-build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.CssScope = 
-
 [D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/About/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -56,6 +52,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Services/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Shared/Components/CommensList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ29tbWVuc0xpc3RcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Shared/Components/Products/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvZHVjdHNcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Shared/_Layout.cshtml]

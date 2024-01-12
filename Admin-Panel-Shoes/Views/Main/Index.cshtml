@@ -1,4 +1,5 @@
-﻿@model List<Main>
+﻿@using Admin_Panel_Shoes.ViewCompanents
+@model List<Main>
 
 @{
     ViewBag.Title = "title";
@@ -19,7 +20,7 @@
           </p>
         </div>
         <div class="main_image">
-           <img src="@item.MainImage" />
+          <img src="@item.MainImage" />
           @* <img src="~/Shoes-Website/image/shoes.png"/> *@
         </div>
       </div>
@@ -34,4 +35,7 @@
     </div>
   }
 </section>
+
+@* @await Component.InvokeAsync("CommensList") *@
+@await Component.InvokeAsync("Products")
 
