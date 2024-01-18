@@ -422,10 +422,11 @@
       <_ContentIncludedByDefault Remove="Views\Services\Index.cshtml" />
       <_ContentIncludedByDefault Remove="Views\Products\Index.cshtml" />
       <_ContentIncludedByDefault Remove="Views\About\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\FormLogin\Index.cshtml" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Pages\Components\" />
+      <Folder Include="Pages\" />
     </ItemGroup>
 
 </Project>
