@@ -16,18 +16,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\ASP.NET\Admin-Panel-Shoes\Admin-Panel-Shoes
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/FormLogin/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = 
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRm9ybUxvZ2luXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/About/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Customers/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzXEluZGV4LmNzaHRtbA==
+[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Pages/FormLogin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybUxvZ2luXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Home/Index.cshtml]
@@ -44,14 +34,6 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Main/ProductMain.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxQcm9kdWN0TWFpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Products/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdHNcSW5kZXguY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Services/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VydmljZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Shared/Components/About/Default.cshtml]

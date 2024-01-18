@@ -3,19 +3,18 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Admin_Panel_Shoes.ViewCompanents;
 
-public class AboutViewComponent : ViewComponent
+public class MainViewComponent : ViewComponent
 {
     private readonly Context _context;
 
-    public AboutViewComponent(Context context)
+    public MainViewComponent (Context context)
     {
         _context = context;
     }
-
+    
     public IViewComponentResult Invoke()
-    {
-        var aboutlist = _context.Abouts.ToList();
-        return View(aboutlist);
-        
+    {      
+        var mains = _context.Mains.ToList();
+        return View(mains);
     }
 }

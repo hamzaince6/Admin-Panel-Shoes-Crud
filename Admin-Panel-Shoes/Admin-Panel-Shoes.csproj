@@ -16,6 +16,7 @@
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
         <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="7.0.14" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="7.0.14" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.14" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.14" />
         <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.14">
@@ -417,10 +418,14 @@
       <_ContentIncludedByDefault Remove="Views\TestProduct\Edit.cshtml" />
       <_ContentIncludedByDefault Remove="Views\TestProduct\Index.cshtml" />
       <_ContentIncludedByDefault Remove="Pages\Test\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\FormLogin\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Services\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Products\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\About\Index.cshtml" />
     </ItemGroup>
 
     <ItemGroup>
-      <AdditionalFiles Include="Views\FormLogin\Index.cshtml" />
+      <Folder Include="Pages\Components\" />
     </ItemGroup>
 
 </Project>
