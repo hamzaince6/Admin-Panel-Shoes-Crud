@@ -16,12 +16,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\ASP.NET\Admin-Panel-Shoes\Admin-Panel-Shoes
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Pages/FormLogin/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybUxvZ2luXEluZGV4LmNzaHRtbA==
+[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/CustomersAdmin/FormLogin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tZXJzQWRtaW5cRm9ybUxvZ2luXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Admin/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/CustomersAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Home/Index.cshtml]
