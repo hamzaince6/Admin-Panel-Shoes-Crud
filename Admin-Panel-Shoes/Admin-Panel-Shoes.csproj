@@ -423,6 +423,7 @@
       <_ContentIncludedByDefault Remove="Views\Products\Index.cshtml" />
       <_ContentIncludedByDefault Remove="Views\About\Index.cshtml" />
       <_ContentIncludedByDefault Remove="Pages\FormLogin\Index.cshtml" />
+      <_ContentIncludedByDefault Remove="Pages\Admin\Index.cshtml" />
     </ItemGroup>
 
 </Project>

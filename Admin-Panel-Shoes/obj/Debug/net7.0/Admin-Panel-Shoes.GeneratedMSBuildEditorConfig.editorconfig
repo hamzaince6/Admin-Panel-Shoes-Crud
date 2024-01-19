@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\ASP.NET\Admin-Panel-Shoes\Admin-Panel-Shoes
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Pages/FormLogin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybUxvZ2luXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -50,6 +58,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Shared/Components/Services/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VydmljZXNcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Shared/_Layout.cshtml]

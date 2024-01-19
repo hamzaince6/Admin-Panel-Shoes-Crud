@@ -1,6 +1,12 @@
-﻿namespace Admin_Panel_Shoes.Controllers;
+﻿using Microsoft.AspNetCore.Mvc;
 
-public class AdminController
+namespace Admin_Panel_Shoes.Controllers;
+
+public class AdminController : Controller
 {
-    
+    // GET
+    public IActionResult Index()
+    {
+        return View();
+    }
 }
