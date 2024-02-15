@@ -9,73 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Admin_Panel_Shoes
 build_property.RootNamespace = Admin_Panel_Shoes
-build_property.ProjectDir = D:\ASP.NET\Admin-Panel-Shoes\Admin-Panel-Shoes\
+build_property.ProjectDir = C:\Users\hamza\Hamza-Github-Project\Admin-Panel-Shoes-Crud\Admin-Panel-Shoes\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\ASP.NET\Admin-Panel-Shoes\Admin-Panel-Shoes
+build_property.MSBuildProjectDirectory = C:\Users\hamza\Hamza-Github-Project\Admin-Panel-Shoes-Crud\Admin-Panel-Shoes
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/CustomersAdmin/FormLogin/Index.cshtml]
+[C:/Users/hamza/Hamza-Github-Project/Admin-Panel-Shoes-Crud/Admin-Panel-Shoes/CustomersAdmin/FormLogin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tZXJzQWRtaW5cRm9ybUxvZ2luXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/CustomersAdmin/Index.cshtml]
+[C:/Users/hamza/Hamza-Github-Project/Admin-Panel-Shoes-Crud/Admin-Panel-Shoes/Pages/FormLogin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRm9ybUxvZ2luXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hamza/Hamza-Github-Project/Admin-Panel-Shoes-Crud/Admin-Panel-Shoes/Views/Admin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hamza/Hamza-Github-Project/Admin-Panel-Shoes-Crud/Admin-Panel-Shoes/Views/CustomersAdmin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VzdG9tZXJzQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Home/Index.cshtml]
+[C:/Users/hamza/Hamza-Github-Project/Admin-Panel-Shoes-Crud/Admin-Panel-Shoes/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Home/Privacy.cshtml]
+[C:/Users/hamza/Hamza-Github-Project/Admin-Panel-Shoes-Crud/Admin-Panel-Shoes/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Main/Index.cshtml]
+[C:/Users/hamza/Hamza-Github-Project/Admin-Panel-Shoes-Crud/Admin-Panel-Shoes/Views/Main/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Shared/Components/About/Default.cshtml]
+[C:/Users/hamza/Hamza-Github-Project/Admin-Panel-Shoes-Crud/Admin-Panel-Shoes/Views/Shared/Components/About/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWJvdXRcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Shared/Components/Customers/Default.cshtml]
+[C:/Users/hamza/Hamza-Github-Project/Admin-Panel-Shoes-Crud/Admin-Panel-Shoes/Views/Shared/Components/Customers/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQ3VzdG9tZXJzXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Shared/Components/LoginForm/Default.cshtml]
+[C:/Users/hamza/Hamza-Github-Project/Admin-Panel-Shoes-Crud/Admin-Panel-Shoes/Views/Shared/Components/LoginForm/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9naW5Gb3JtXERlZmF1bHQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Shared/Components/Main/Default.cshtml]
+[C:/Users/hamza/Hamza-Github-Project/Admin-Panel-Shoes-Crud/Admin-Panel-Shoes/Views/Shared/Components/Main/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWFpblxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Shared/Components/Products/Default.cshtml]
+[C:/Users/hamza/Hamza-Github-Project/Admin-Panel-Shoes-Crud/Admin-Panel-Shoes/Views/Shared/Components/Products/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcUHJvZHVjdHNcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Shared/Components/Services/Default.cshtml]
+[C:/Users/hamza/Hamza-Github-Project/Admin-Panel-Shoes-Crud/Admin-Panel-Shoes/Views/Shared/Components/Services/Default.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2VydmljZXNcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Shared/_AdminLayout.cshtml]
+[C:/Users/hamza/Hamza-Github-Project/Admin-Panel-Shoes-Crud/Admin-Panel-Shoes/Views/Shared/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Shared/_Layout.cshtml]
+[C:/Users/hamza/Hamza-Github-Project/Admin-Panel-Shoes-Crud/Admin-Panel-Shoes/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/hamza/Hamza-Github-Project/Admin-Panel-Shoes-Crud/Admin-Panel-Shoes/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/_ViewImports.cshtml]
+[C:/Users/hamza/Hamza-Github-Project/Admin-Panel-Shoes-Crud/Admin-Panel-Shoes/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/ASP.NET/Admin-Panel-Shoes/Admin-Panel-Shoes/Views/_ViewStart.cshtml]
+[C:/Users/hamza/Hamza-Github-Project/Admin-Panel-Shoes-Crud/Admin-Panel-Shoes/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

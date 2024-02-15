@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "33s5b3q/MjyqJ0PJsq+bC0lG68y08KOq0qyOyX4QKUJJKOCI64WpCota9weYwxGdc2HoxJiLI6sSPt8ZnPYlJw==",
+  "dgSpecHash": "0QmZsko2YPbNl+ra2CPDYGbBFMtf9JLjXLjYOwMwNUxcyf1vh163ZoF+PujtT3YwXuL6p6Wn8B28WRrFp8ZWog==",
   "success": true,
-  "projectFilePath": "D:\\ASP.NET\\Admin-Panel-Shoes\\Admin-Panel-Shoes\\Admin-Panel-Shoes.csproj",
+  "projectFilePath": "C:\\Users\\hamza\\Hamza-Github-Project\\Admin-Panel-Shoes-Crud\\Admin-Panel-Shoes\\Admin-Panel-Shoes.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hamza\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\hamza\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
