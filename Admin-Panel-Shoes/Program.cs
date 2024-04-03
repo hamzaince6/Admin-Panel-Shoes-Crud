@@ -12,7 +12,7 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
                        throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 
 builder.Services.AddDbContext<Context>(optionsBuilder =>
-    optionsBuilder.UseSqlServer(connectionString, x => x.MigrationsAssembly("Admin-Panel-Shoes"))); 
+    optionsBuilder.UseSqlServer(connectionString)); 
 
 builder.Services.AddAuthentication(NegotiateDefaults.AuthenticationScheme)
     .AddNegotiate();
@@ -26,13 +26,13 @@ builder.Services.AddRazorPages();
 
 var app = builder.Build();
 
-// Entity Framework Core migration işlemi
-using (var scope = app.Services.CreateScope())
-{
-    var services = scope.ServiceProvider;
-    var dbContext = services.GetRequiredService<Context>();
-    dbContext.Database.GetHashCode();
-}
+// // Entity Framework Core migration işlemi
+// using (var scope = app.Services.CreateScope())
+// {
+//     var services = scope.ServiceProvider;
+//     var dbContext = services.GetRequiredService<Context>();
+//     dbContext.Database.GetHashCode();
+// }
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

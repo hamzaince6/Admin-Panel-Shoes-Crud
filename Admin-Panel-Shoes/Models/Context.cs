@@ -9,10 +9,6 @@ namespace Admin_Panel_Shoes.Models
         {
         }
 
-        public Context()
-        {
-            
-        }
 
         public DbSet<AdminLogin> AdminLogins { get; set; }
         public DbSet<Main> Mains { get; set; }
@@ -21,5 +17,10 @@ namespace Admin_Panel_Shoes.Models
         public DbSet<Customers> CustomersEnumerable { get; set; }
         public DbSet<Services> Services { get; set; }
         public DbSet<FormLogin> FormLogin { get; set; }
+        
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            base.OnModelCreating(builder);
+        }
     }
 }

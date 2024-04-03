@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Admin_Panel_Shoes.Controllers;
 
-public class CustomersListController : Controller
+public class ProductsListController : Controller
 {
     private readonly Context _context;
-    public CustomersListController(Context context)
+    public ProductsListController(Context context)
     {
         _context = context;
     }
@@ -14,7 +14,7 @@ public class CustomersListController : Controller
     // GET
     public IActionResult Index()
     {
-        var deger = _context.CustomersEnumerable.ToList();
+        var deger = _context.ProductsEnumerable.ToList();
         return View(deger);
     }
 }

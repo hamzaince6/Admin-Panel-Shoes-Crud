@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Admin_Panel_Shoes.Controllers;
 
-public class CustomersAdminController : Controller
+public class CustomersListController : Controller
 {
     private readonly Context _context;
-    public CustomersAdminController(Context context)
+    public CustomersListController(Context context)
     {
         _context = context;
     }

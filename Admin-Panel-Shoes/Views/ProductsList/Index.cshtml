@@ -1,8 +1,67 @@
-﻿@model System.Collections.Generic.List<Admin_Panel_Shoes.Models.Customers>
-
+﻿@model List<Products>
 @{
     ViewBag.Title = "title";
     Layout = "_AdminLayout";
 }
+    <div class="container-fluid py-4">
+      <div class="row">
+        <div class="col-12">
+          <div class="card mb-4">
+            <div class="card-header pb-0">
+              <h6>Products table</h6>
+            </div>
+            <div class="card-body px-0 pt-0 pb-2">
+              <div class="table-responsive p-0">
+                <table class="table align-items-center mb-0">
+                  <thead>
+                    <tr>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7">Id</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Products Image</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Products Title</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Products Star</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Products Description</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Products Price</th>
+                      <th class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2">Products Edit</th>
+                      <th class="text-secondary opacity-7"></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                  @foreach (var item in Model)
+                  {
+                    <tr>
+                      <td>
+                        <div class="d-flex px-2 py-1" style="padding-left: 1.1rem !important;">
+                          <div class="d-flex flex-column justify-content-center">
+                            <h6 class="mb-0 text-sm">@item.ProductsId</h6>
+                          </div>
+                        </div>
+                      </td>
+                      <td>
+                        <p class="text-xs font-weight-bold mb-0">@item.ProductsImage</p>
+                      </td>
+                      <td>
+                        <p class="text-xs font-weight-bold mb-0">@item.ProductsCategoryName</p>
+                      </td>
+                      <td>
+                        <p class="text-xs font-weight-bold mb-0">@item.ProductsStar</p>
+                      </td>
+                      <td>
+                        <p class="text-xs font-weight-bold mb-0">@item.ProductsDescription</p>
+                      </td>
+                       <td>
+                         <p class="text-xs font-weight-bold mb-0">@item.ProductsPrice</p>
+                       </td>
+                      <td class="align-middle">
+                        <a class="btn btn-primary btn-sm mb-0 w-48" href="#" type="button">Edit</a>
+                      </td>
+                    </tr>
+                  }
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-<h2>title</h2>
